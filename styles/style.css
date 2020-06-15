@@ -1,0 +1,351 @@
+body{
+
+   
+}
+.container{
+
+
+}
+*{
+
+
+}
+
+/* START HEADER SECTION  */
+
+#bg-one{
+
+    background: url("/images/bg-images/header-bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.textarea{
+
+    margin-top: 160px;
+    margin-left: 160px;
+}
+.heading-up-title{
+
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    display: block;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.header-hading{
+
+    font-family: 'Suez One', serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    color: #ff4e95;
+    display: block;
+}
+.description-up-title{
+
+    font-family: 'Bree Serif', serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    display: block;
+    padding-bottom: 10px;
+    color: #4979e1;
+}
+.description{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    display: block;
+    text-align: justify;
+}
+/* Start button */
+.button{
+
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.first-child,
+.last-child{
+  position: relative;
+  height: 40px;
+  width: 110px;
+  font-size: 17px;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #0d0d0d;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.first-child{
+  color: #0eecca; 
+  border-color: #389cf5;
+}
+.last-child{
+  color: #4979e1; 
+  border-color: #7936d9;
+}
+.first-child:before,
+.last-child:before,
+.first-child:after,
+.last-child:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  filter: blur(30px);
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.first-child:before,
+.last-child:before{
+  width: 60px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+.first-child:after,
+.last-child:after{
+  width: 30px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+.first-child:before,
+.last-child:before,
+.first-child:after,
+.last-child:after{
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+.first-child:hover,
+.last-child:hover{
+  color: #0d0d0d;
+}
+.first-child:hover{
+  background: #ffc71e;
+  color: #ff1e76;
+  border: 2px solid #ff5298;
+  font-size: 17px;
+}
+.last-child:hover{
+  background: #ff4e95;
+  color: #ffcc1c;
+  border: #ffa332;
+  border: 2px solid;
+}
+.last-child{
+    
+    height: 40px;
+    width: 170px;
+}
+
+/* End button */
+.imgarea{
+
+    margin-bottom: 40px;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+.header-img{
+
+    height: 500px;
+    padding-left: 30px;
+}
+
+/* END HEADER SECTION  */
+
+
+/* START BIOGRAPHY SECTION */
+
+#bg-two{
+
+    background: url("/images/bg-images/biography-bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.section-imgarea{
+
+ margin-top: 50px;
+ margin-left: 130px;
+ margin-bottom: 50px;
+}
+.section-img{
+
+    height: 500px;
+    padding-left: 55px;
+}
+.section-textarea{
+
+    margin-top: 180px;
+    margin-right: 160px;
+}
+.section-up-title{
+
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    display: block;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    color: #7936d9;
+}
+.section-description{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    display: block;
+    text-align: justify;
+}
+/* END BIOGRAPHY SECTION */
+
+/* START WORK SECTION */
+.work-up-title{
+
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    color: #7936d9;
+}
+.work-images-1{
+
+    height: 220px;
+    width: 320px;
+    margin-left: 100px;
+    transition: all .4s ease-in-out;
+}
+.work-images-2{
+
+    height: 220px;
+    width: 320px;
+    margin-left: 50px;
+    transition: all .4s ease-in-out;
+}
+.work-images-3{
+
+    height: 220px;
+    width: 320px;
+    transition: all .4s ease-in-out;
+}
+.work-images-3:hover,
+.work-images-2:hover,
+.work-images-1:hover{
+
+    height: 225px;
+    width: 325px;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #389cf5, -3px -3px 6px #4979e1;
+    border-radius: 5px;
+}
+.work-img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#bg-three{
+
+    background: url("/images/bg-images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* END WORK SECTION */
+
+
+#bg-last{
+
+    background: url("/images/bg-images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contact-hading{
+
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+    color: #7936d9;
+}
+.contact-hading-1{
+
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 30px;
+}
+.contact-hading-0{
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(143, 142, 142);
+}
+.contact-hading-2{
+
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-bottom: 70px;
+}
+.link-0{
+
+    text-decoration: none;
+    color: #7936d9;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Roboto Slab', serif;
+}
+.link{
+
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.bg .link:hover,
+.bg .link-0:hover{
+
+    color: white;
+}
+.bg{
+
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    background: black;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    border: 2px solid #4979e1;
+    transition: all .4s ease-in-out;
+}
+.bg:hover{
+    color: white;
+    border: 2px solid #ffa332;
+    background: #ff1e76;
+    cursor: pointer;
+}
+
+footer{
+
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(143, 142, 142);
+}
